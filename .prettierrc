@@ -14,7 +14,7 @@
   "requirePragma": false,
   "bracketSameLine": true,
   "bracketSpacing": true,
-  "printWidth": 200,
+  "printWidth": 100,
   "proseWrap": "preserve",
   "rangeStart": 0
 }
