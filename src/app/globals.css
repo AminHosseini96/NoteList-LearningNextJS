@@ -18,6 +18,10 @@
   }
 }
 
+::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome/Safari */
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: rgb(var(--foreground-rgb));

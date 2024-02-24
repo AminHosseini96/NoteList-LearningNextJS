@@ -1,15 +1,11 @@
-import { useState } from 'react';
-
 interface Props {
   label: string;
   onClick: () => void;
+  clicked?: boolean;
 }
 
-export const ListItem = ({ label, onClick }: Props) => {
-  const [clicked, setClicked] = useState(false);
-
+export const ListItem = ({ label, clicked, onClick }: Props) => {
   const handleClick = () => {
-    setClicked(!clicked);
     onClick();
   };
 
