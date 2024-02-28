@@ -12,8 +12,7 @@ export const ListItem = ({ label, clicked, onClick }: Props) => {
   return (
     <div
       onClick={handleClick}
-      className={'px-5 py-4 mx-5 my-1.5 rounded-md transition-all hover:bg-cyan-800 bg-cyan-900'}
-      style={{ backgroundColor: clicked ? 'rgb(6,95,70)' : 'rgb(22,78,99)' }}>
+      className={`px-5 py-4 mx-5 my-1.5 rounded-md transition-all ${clicked ? 'bg-emerald-800' : 'bg-cyan-900 hover:bg-cyan-800'}`}>
       <p className={'text-cyan-50'}>{label}</p>
     </div>
   );
